@@ -15,18 +15,44 @@ id,text,link,category
 14,HTML,,skills
 15,CSS,,skills
 16,Flask,,skills
-17,Test Ruffier,,projects
-18,Titanic predictions,,projects
-19,Game3d,https://github.com/Milky47Way/game3d,projects
-20,Python Start Course - Logika (2022-2024),,
-21,Python Pro Course - Logika (2024-2025),,
-22,,,
-23,,,
-24,,,
+17,Matplotlib,,skills
+18,sklearn,,skills
+19,3-D modelling,,skills
+20,Test Ruffier,,projects
+21,Titanic predictions,https://github.com/Milky47Way/titanic,projects
+22,Train. Base,https://github.com/Milky47Way/train,projects
+23,Shooter,https://github.com/Milky47Way/stasik-stranny,projects
+24,Game3d,https://github.com/Milky47Way/game3d,projects
 25,,,
 26,,,
-27,,,
-28,,,
-29,,,
-30,,,
-31,,,
+27,Закінчила 9 класів у ПЗШ №9,,education
+28,"Навчаюся у ВСП ""АЕФК ПДАУ""",,education
+29,Python Start Course - Logika (2022-2024),,education
+30,Python Pro Course - Logika (2024-2025),,education
+31,Python-марафон від JavaRush,,education
+32,,,
+33,,,
+34,,,
+35,,,
+36,,,
+37,,,
+38,,,
+39,,,
+40,,,
+41,,,
+42,,,
+43,,,
+44,,,
+45,,,
+46,,,
+47,,,
+48,,,
+49,,,
+50,,,
+51,,,
+52,,,
+53,,,
+54,,,
+55,,,
+56,,,
+57,,,
