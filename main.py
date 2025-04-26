@@ -5,7 +5,6 @@ from flask import Flask, render_template
 import os
 def index():
     data = pd.read_csv("kamila.csv")
-    photo = "photo.jpg"
     name = data[data["category"] == "name"]["text"].values[0]
     position = data[data["category"] == "position"]["text"].values[0]
     contacts = data[data["category"] == "contacts"][["text","link"]].replace({np.nan:None}).values
@@ -15,7 +14,7 @@ def index():
     achievements = data[data["category"] == "achievements"]["text"].values
     facts = data[data["category"] == "facts"]["text"].values
 
-    return render_template("index.html", name=name, photo=photo, position=position, contacts=contacts, skills=skills, projects=projects, education=education, achievements=achievements, facts=facts)
+    return render_template("index.html", name=name, position=position, contacts=contacts, skills=skills, projects=projects, education=education, achievements=achievements, facts=facts)
 
 folder = os.getcwd()
 app = Flask(__name__, template_folder=folder, static_folder=folder)
