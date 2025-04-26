@@ -4,11 +4,10 @@ color: #fff7ff;
 }
 .main{
     width: 50%;
-    margin: auto;
-    background=color: #191919;
+    margin-left: 100px;
+    background-color: #191919;
     padding: 20px;
-    padding-left: 40px;
-    border: 10px solid ##4d4c4c;
+    border: 10px solid #4d4c4c;
     border-radius: 20px;
     color: #fff7ff;
 }
@@ -19,6 +18,12 @@ color: #fff7ff;
 h1, h2, h3{
 font-family: "Cormorant", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
+}
+
+.cat{
+width: 300px;
+height: auto;
+
 }
