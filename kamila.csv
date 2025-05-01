@@ -8,44 +8,44 @@ id,text,link,category
 7,Github,https://github.com/Milky47Way,contacts
 8,,,
 9,bio..,,summary
-10,OOP,,skills
-11,Kivy,,skills
-12,Pandas,,skills
-13,Panda3d,,skills
-14,HTML,,skills
-15,CSS,,skills
-16,Flask,,skills
-17,Matplotlib,,skills
-18,sklearn,,skills
-19,3-D modelling,,skills
-20,Test Ruffier,,projects
-21,Titanic predictions,https://github.com/Milky47Way/titanic,projects
-22,Train. Base,https://github.com/Milky47Way/train,projects
-23,Shooter,https://github.com/Milky47Way/stasik-stranny,projects
-24,Game3d,https://github.com/Milky47Way/game3d,projects
-25,,,
+10,,,
+11,,,
+12,,,
+13,,,
+14,,,
+15,,,
+16,,,
+17,,,
+18,,,
+19,,,
+20,,,
+21,,,
+22,,,
+23,OOP,,skills
+24,python-telegram-bot,,skills
+25,openai,,skills
 26,,,
-27,Закінчила 9 класів у ПЗШ №9,,education
-28,"Навчаюся у ВСП ""АЕФК ПДАУ""",,education
-29,Python Start Course - Logika (2022-2024),,education
-30,Python Pro Course - Logika (2024-2025),,education
-31,Python-марафон від JavaRush,,education
-32,,,
-33,,,
-34,,,
-35,,,
-36,,,
-37,,,
-38,,,
-39,,,
-40,,,
-41,,,
+27,Kivy,,skills
+28,Pandas,,skills
+29,Panda3d,,skills
+30,HTML,,skills
+31,CSS,,skills
+32,Flask,,skills
+33,Matplotlib,,skills
+34,sklearn,,skills
+35,3-D modelling,,skills
+36,Pygame,,skills
+37,Test Ruffier,,projects
+38,Titanic predictions,https://github.com/Milky47Way/titanic,projects
+39,Train. Base,https://github.com/Milky47Way/train,projects
+40,Shooter,https://github.com/Milky47Way/stasik-stranny,projects
+41,Game3d,https://github.com/Milky47Way/game3d,projects
 42,,,
-43,,,
-44,,,
-45,,,
-46,,,
-47,,,
+43,Закінчила 9 класів у ПЗШ №9,,education
+44,"Навчаюся у ВСП ""АЕФК ПДАУ""",,education
+45,Python Start Course - Logika (2022-2024),,education
+46,Python Pro Course - Logika (2024-2025),,education
+47,Python-марафон від JavaRush,,education
 48,,,
 49,,,
 50,,,
