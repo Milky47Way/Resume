@@ -1,40 +1,140 @@
 body {
+font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+
+  font-style: normal;
 background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));
 color: #fff7ff;
 }
-.main{
-    width: 50%;
-    margin-left: 100px;
-    background-color: #191919;
-    padding: 20px;
-    border: 10px solid #4d4c4c;
-    border-radius: 20px;
-    color: #fff7ff;
-}
+
 
 h1, h2, h3 {
   font-family: "Cormorant", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+
+  }
+
+
+.contacts ul{
+  font-size: 0.75em;
+
+}
+h2{
+
+
+  display: inline-block;
+  padding: 5px;
+  border-radius: 0 50px 50px 0;
+  padding-left: 35px;
+
+
+}
+
+.contacts h2{
+margin-left: -20px;
+ background-color: #191919;
+}
+
+.skills h2{
+ margin-left: -30px;
+ background-color: #414e41;
+}
+
+.full-info{
+display: flex;
+padding-left: 30px;
+
+
 }
 
 
 .main {
-  width: 50%;
-  margin-left: 320px;
+  width: 55%;
+  margin: auto;
   background-color: #191919;
-  padding: 80px;
+  padding: 0;
   border: 5px solid #38473b;
   border-radius: 20px;
   color: #fff7ff;
+  position:relative;
+
 }
 
 .skills {
   margin-left: 10px;
 }
 
-.cat {
-  width: 300px;
-  height: auto;
+td{
+width: 25%;
+
 }
+
+.cat {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 14px;
+
+}
+
+.bio{
+background-color:#38473b;
+padding-left: 50%;
+margin: 0;
+height: 250px;
+padding-top: 50px;
+}
+
+.left-corner{
+background-color:#38473b;
+height: 30px;
+width: 370px;
+border-radius: 0 20px 0 0;
+position: absolute;
+bottom: 0;
+
+}
+.right-corner{
+background-color:#191919;
+height: 30px;
+width: 370px;
+border-radius: 0 20px 0 20px;
+position: absolute;
+right: 0;
+
+}
+
+
+.contacts{
+background-color: #414e41;
+border-radius: 1000px 1000px 0 0;
+margin-top: -295px;
+z-index: 10;
+}
+
+.contacts div{
+padding: 20px;
+padding-top: 23px;
+
+width: 250px;
+}
+.bio h1{
+margin: 0;
+}
+
+.skills{
+padding: 20px;
+}
+
+a {
+color: white;
+}
+
+a:hover {
+color: green;
+}
+

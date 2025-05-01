@@ -22,7 +22,7 @@ id,text,link,category
 21,,,
 22,,,
 23,OOP,,skills
-24,python-telegram-bot,,skills
+24, Pygame,,skills
 25,openai,,skills
 26,,,
 27,Kivy,,skills
@@ -34,7 +34,7 @@ id,text,link,category
 33,Matplotlib,,skills
 34,sklearn,,skills
 35,3-D modelling,,skills
-36,Pygame,,skills
+36,python-telegram-bot,,skills
 37,Test Ruffier,,projects
 38,Titanic predictions,https://github.com/Milky47Way/titanic,projects
 39,Train. Base,https://github.com/Milky47Way/train,projects
