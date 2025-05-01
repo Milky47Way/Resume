@@ -8,44 +8,69 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-
 </head>
 <body>
-<img class="cat" src="{{ url_for('static', filename='bd19c1610f17217166fc092c2ae1a4e1.jpg') }}">
-<h1>{{name}}</h1>
-<h3>{{position}}</h3>
-<h2>Contacts</h2>
-<ul>
-    {% for contact, link in contacts %}
-        {% if link %}
-            <li><a href={{link}}>{{contact}}</a></li>
-        {% else %}
-            <li>{{contact}}</li>
-        {% endif %}
-    {% endfor %}
-</ul>
+    <div class="main">
+        <img class="cat" src="{{ url_for('static', filename='bd19c1610f17217166fc092c2ae1a4e1.jpg') }}">
+        <h1>{{ name }}</h1>
+        <h3>{{ position }}</h3>
 
-<h2>Summary</h2>
-<p>{{summary}}</p>
-
-<h2>Skills</h2>
-<table border="1">
-    {% for i in range(0, skills|length, 3) %}
-        <tr>
-            {% for j in range(3) %}
-                {% if i + j < skills|length %}
-                    <td>{{ skills[i + j] }}</td>
+        <h2>Contacts</h2>
+        <ul>
+            {% for contact, link in contacts %}
+                {% if link %}
+                    <li><a href="{{ link }}">{{ contact }}</a></li>
                 {% else %}
-                    <td></td>
+                    <li>{{ contact }}</li>
                 {% endif %}
             {% endfor %}
-        </tr>
-    {% endfor %}
-</table>
+        </ul>
 
-<h2>Projects</h2>
-{% for project, link in projects %}
-    <a href={{link}}>{{project}}</a>
-{%endfor%}
+        <h2>Summary</h2>
+        <p>{{ summary }}</p>
+
+        <h2>Skills</h2>
+        <table border="1">
+            {% for i in range(0, skills|length, 3) %}
+                <tr>
+                    {% for j in range(3) %}
+                        {% if i + j < skills|length %}
+                            <td>{{ skills[i + j] }}</td>
+                        {% else %}
+                            <td></td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h2>Projects</h2>
+        <ul>
+            {% for project, link in projects %}
+                <li><a href="{{ link }}">{{ project }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <h2>Education</h2>
+        <ul>
+            {% for item in education %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Achievements</h2>
+        <ul>
+            {% for item in achievements %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Facts</h2>
+        <ul>
+            {% for item in facts %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
 </body>
 </html>
