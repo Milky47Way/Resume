@@ -1,54 +1,44 @@
 body {
 font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 400;
+font-weight: 400;
 
-  font-style: normal;
-background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));
+font-style: normal;
+background-image: url('back.jpg');
 color: #fff7ff;
 }
-
 
 h1, h2, h3 {
   font-family: "Cormorant", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-
   }
-
 
 .contacts ul{
   font-size: 0.75em;
-
 }
+
 h2{
-
-
   display: inline-block;
   padding: 5px;
   border-radius: 0 50px 50px 0;
   padding-left: 35px;
-
-
 }
 
 .contacts h2{
 margin-left: -20px;
- background-color: #191919;
+ background-color: #1f1f1f;
 }
 
 .skills h2{
  margin-left: -30px;
- background-color: #414e41;
+ background-color: #3c4842;
 }
 
 .full-info{
 display: flex;
 padding-left: 30px;
-
-
 }
-
 
 .main {
   width: 55%;
@@ -59,7 +49,6 @@ padding-left: 30px;
   border-radius: 20px;
   color: #fff7ff;
   position:relative;
-
 }
 
 .skills {
@@ -68,7 +57,7 @@ padding-left: 30px;
 
 td{
 width: 25%;
-
+ padding-left: 20px;
 }
 
 .cat {
@@ -78,39 +67,51 @@ width: 25%;
   display: block;
   margin: 0 auto;
   margin-top: 14px;
+}
 
+.cats {
+  width: 150px;
+  height: auto;
+  border-radius: 90%;
+  display: block;
+  margin: 5px auto;
+  margin-top: 50px;
+}
+
+
+.text{
+padding-left: 100px;
 }
 
 .bio{
-background-color:#38473b;
-padding-left: 50%;
+background-color:#2a3c34;
+border-radius: 13px 19px 0 0;
+padding-left: 42%;
 margin: 0;
 height: 250px;
 padding-top: 50px;
 }
 
 .left-corner{
-background-color:#38473b;
+background-color:#596157;
 height: 30px;
 width: 370px;
-border-radius: 0 20px 0 0;
+border-radius: 0 20px 0 17px;
 position: absolute;
 bottom: 0;
-
 }
+
 .right-corner{
-background-color:#191919;
+background-color:#262626;
 height: 30px;
 width: 370px;
 border-radius: 0 20px 0 20px;
 position: absolute;
 right: 0;
-
 }
 
-
 .contacts{
-background-color: #414e41;
+background-color:  #414e41;
 border-radius: 1000px 1000px 0 0;
 margin-top: -295px;
 z-index: 10;
@@ -119,9 +120,9 @@ z-index: 10;
 .contacts div{
 padding: 20px;
 padding-top: 23px;
-
 width: 250px;
 }
+
 .bio h1{
 margin: 0;
 }
@@ -130,11 +131,19 @@ margin: 0;
 padding: 20px;
 }
 
-a {
+a{
 color: white;
 }
 
 a:hover {
-color: green;
+color: #BFBC8A;
 }
 
+::selection{
+background: #77927c;
+color: white;
+}
+
+.facts li{
+margin-top:20px;
+}
