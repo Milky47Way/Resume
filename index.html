@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kamila Shevchenko</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 
@@ -28,7 +29,8 @@
 <div class ='full-info'>
 
         <div class="contacts">
-<img class="cat" src="{{ url_for('static', filename='bd19c1610f17217166fc092c2ae1a4e1.jpg') }}">
+<img class="cat" src="{{ url_for('static', filename='cat.jpg') }}">
+
 <div>
         <h2>Contacts</h2>
         <ul>
@@ -54,6 +56,9 @@
                 <li>{{ item }}</li>
             {% endfor %}
         </ul>
+    <img class="cats" src="{{ url_for('static', filename='paw.jpg') }}">
+    <p class="text">Bye ❤️</p>
+
     </div>
          </div>
 
@@ -84,7 +89,7 @@
 
 
         <h2>Facts</h2>
-        <ul>
+        <ul class="facts">
             {% for item in facts %}
                 <li>{{ item }}</li>
             {% endfor %}

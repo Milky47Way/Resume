@@ -7,7 +7,7 @@ id,text,link,category
 6,Telegram,https://t.me/hopefully_die,contacts
 7,Github,https://github.com/Milky47Way,contacts
 8,,,
-9,bio..,,summary
+9,"Мене звати Каміла, мені 17 і я студентка. Люблю подорожувати цікавими місцями, захоплююсь аніме та створюю AMV, маючи власний YouTube-канал із маленькою, але приємною аудиторією. У людях ціную легкість і позитив. Мрію пов’язати своє життя з дизайном та ІТ, бо люблю все, що можна зробити красиво, цікаво і трішки по-своєму.",,summary
 10,,,
 11,,,
 12,,,
@@ -22,9 +22,9 @@ id,text,link,category
 21,,,
 22,,,
 23,OOP,,skills
-24, Pygame,,skills
-25,openai,,skills
-26,,,
+24,Pygame,,skills
+25,Openai,,skills
+26,Python 3,,skills
 27,Kivy,,skills
 28,Pandas,,skills
 29,Panda3d,,skills
@@ -32,10 +32,10 @@ id,text,link,category
 31,CSS,,skills
 32,Flask,,skills
 33,Matplotlib,,skills
-34,sklearn,,skills
-35,3-D modelling,,skills
-36,python-telegram-bot,,skills
-37,Test Ruffier,,projects
+34,Sklearn,,skills
+35,Python-telegram-bot,,skills
+36,3-D modelling,,skills
+37,Test Ruffier,https://github.com/Milky47Way/ruf/blob/main/ruffier.py,projects
 38,Titanic predictions,https://github.com/Milky47Way/titanic,projects
 39,Train. Base,https://github.com/Milky47Way/train,projects
 40,Shooter,https://github.com/Milky47Way/stasik-stranny,projects
@@ -48,11 +48,11 @@ id,text,link,category
 47,Python-марафон від JavaRush,,education
 48,,,
 49,,,
-50,,,
-51,,,
-52,,,
-53,,,
+50,охоронець таємниць,,achievements
+51,азарт на межі здорового глузду,,achievements
+52,азартний перфекціоніст,,achievements
+53,підкоритель штучного інтелекту ⭐,,achievements
 54,,,
-55,,,
-56,,,
+55,"Перший штучний інтелект в історії — програма ELIZA, створена у 1966 році. Вона прикидалася психотерапевтом і відповідала людям питаннями типу: «Чому ти так думаєш?». Люди так звикали до неї, що забували, що спілкуються з комп’ютером!",,facts
+56,"Першу нейромережу навчили розпізнавати рукописні цифри ще в 1989 році. Сьогодні на цьому принципі працюють системи, які читають номери банківських чеків, поштові індекси і навіть ваш почерк у блокноті.",,facts
 57,,,
